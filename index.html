@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title>Inicio</title>
+        <link rel="stylesheet" href="css/index.css"/>
+        <style>
+            .cards-list-content{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+            }
+            .cards-item-content{
+                width: 25%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: row;
+            }
+            .cards-item-img img{
+                width:140px ;
+                align-items: center;
+            }
+            .card-item-description{
+                padding-left: 5px;
+                padding-right: 15px;
+            }
+            header .header-content{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+               background-image: url('resources/bg.png');
+               background-repeat: no-repeat;
+               background-size: cover;
+               height: 455px;
+               margin-bottom: 20px;
+
+            }
+            .header-title{
+                background-color: rgb(355, 255, 255/80%);
+                width: 416px  !important;
+                border: 2px;
+            }
+            .hidden {
+            /*visibility: hidden;*/
+            display: none;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div style="margin-left: 50px; margin-right: 50px;">
+            <header>
+                <div style="display: flex; flex-direction: row; justify-content: flex-end; align-items: center;" >
+                    <nav>
+                        <a href="#"> Inicio</a>
+                        <a href="#"> Estudiante</a>
+                        <a href="#"> ejercicios</a>
+                        <a href="#"> ayuda</a>
+                    </nav>
+                </div>
+                <div class="header-content" style="display:flex;flex-direction: row;justify-content:center; align-items:center ">
+                    <div style="width: calc(100% - 150 px);text-align: center;" class="header-title">
+                        <h1> Programacion Avanzada</h1>
+                        <h2> aplicaiones web - Grupo 1</h2>
+                    </div>
+                    <div class="hidden">
+                        <img src="resources/img-1.jpg" alt="imagen del header" style="width: 150px;">
+
+                    </div>
+                </div>
+            </header>
+            <div>
+                <!--contenido de la pagina-->
+                <div class="cards-list-content">
+                    <div class="cards-item-content">
+                        <div class="cards-item-img">
+                            <img src="resources/html.png" alt="HTML">
+                        </div>
+                        <div class="card-item-description">
+                            <h3 class="card-item-title">HTML</h3>
+                            <p class="card-item-text">es un lenguaje de marcado que se utiliza para el 
+                                desarrollo de páginas de Internet. Se trata de la siglas que corresponden
+                                 a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item-content">
+                        <div class="cards-item-img">
+                            <img src="resources/css.png" alt="CSS">
+                        </div>
+                        <div class="card-item-description">
+                            <h3 class="card-item-title">CSS</h3>
+                            <p class="card-item-text">CSS es un lenguaje de hojas de estilos creado para
+                                 controlar el aspecto o presentación de los documentos 
+                                 electrónicos definidos con HTML y XHTML </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item-content">
+                        <div class="cards-item-img">
+                            <img src="resources/js.png" alt="JS">
+                        </div>
+                        <div class="card-item-description">
+                            <h3 class="card-item-title">JS</h3>
+                            <p class="card-item-text">JavaScript es el único lenguaje de programación que
+                                funciona en los navegadores de forma nativa (lenguaje interpretado sin necesidad de compilación).
+                                Por tanto se utiliza como complemento de HTML y CSS para crear páginas webs. </p>
+                        </div>
+                    </div>
+
+                    <div class="cards-item-content">
+                        <div class="cards-item-img">
+                            <img src="resources/php.png" alt="PHP">
+                        </div>
+                        <div class="card-item-description">
+                            <h3 class="card-item-title">PHP</h3>
+                            <p class="card-item-text">PHP (acrónimo recursivo de PHP: Hypertext Preprocessor ) es un lenguaje
+                                de código abierto muy popular especialmente adecuado para el desarrollo web
+                                y que puede ser incrustado en HTML. echo "¡Hola, soy un script de PHP!"; ...
+                                que permiten entrar y salir del "modo PHP". </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <footer>
+                    <!--footer de la pagina-->
+                </footer>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
